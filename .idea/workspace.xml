@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e78aee-a2be-4896-a605-cbe068f54d15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bonus-calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bonus-calculator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BonusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BonusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/spotbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spotbugsXml.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -55,16 +55,17 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\bonus-service1\.idea" />
       <recent name="C:\Users\User\bonus-service1\src" />
+      <recent name="C:\Users\User\bonus-service1\.idea" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn spotbugs:gui" />
       <command value="mvn test" />
+      <command value="mvn clean test" />
       <command value="mvn clean" />
       <command value="mvn clean compile spotbugs:check" />
+      <command value="mvn spotbugs:gui" />
     </option>
   </component>
   <component name="RunManager">
@@ -108,37 +109,37 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1589539428103">
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1589543947663">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589539428103" />
-    <state width="1322" height="125" key="GridCell.Tab.0.bottom" timestamp="1589539180232">
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589543947663" />
+    <state width="1322" height="154" key="GridCell.Tab.0.bottom" timestamp="1589543732641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="125" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589539180232" />
-    <state width="1322" height="125" key="GridCell.Tab.0.center" timestamp="1589539180232">
+    <state width="1322" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589543732641" />
+    <state width="1322" height="154" key="GridCell.Tab.0.center" timestamp="1589543732640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="125" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589539180232" />
-    <state width="1322" height="125" key="GridCell.Tab.0.left" timestamp="1589539180232">
+    <state width="1322" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589543732640" />
+    <state width="1322" height="154" key="GridCell.Tab.0.left" timestamp="1589543732640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="125" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589539180232" />
-    <state width="1322" height="125" key="GridCell.Tab.0.right" timestamp="1589539180232">
+    <state width="1322" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589543732640" />
+    <state width="1322" height="154" key="GridCell.Tab.0.right" timestamp="1589543732640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="125" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589539180232" />
+    <state width="1322" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589543732640" />
     <state x="454" y="169" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589537084226">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="169" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589537084226" />
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1589539180199">
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1589543154724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589539180199" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589538335973">
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589543154724" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589542726329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589538335973" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589542726329" />
   </component>
 </project>
